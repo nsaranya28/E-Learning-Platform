@@ -1,0 +1,29 @@
+# OS files
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
+error_log
+
+# Uploads (keep structure, ignore files)
+assets/uploads/*
+!assets/uploads/.gitkeep
+
+# Vendor
+vendor/
+node_modules/
+
+# Cache
+cache/
+temp/

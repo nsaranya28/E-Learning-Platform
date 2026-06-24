@@ -41,6 +41,24 @@
         </div>
     </div>
 </footer>
+
+<!-- AI Chatbot Widget -->
+<button class="chatbot-toggle" id="chatbotToggle" title="Ask AI Assistant">
+    <i class="fas fa-robot"></i>
+</button>
+
+<div class="chatbot-widget" id="chatbotWidget">
+    <div class="chatbot-header">
+        <h6><i class="fas fa-robot me-2"></i>AI Learning Assistant</h6>
+        <button class="close-btn" id="chatbotClose">&times;</button>
+    </div>
+    <div class="chatbot-messages" id="chatbotMessages"></div>
+    <div class="chatbot-input">
+        <input type="text" id="chatbotInput" placeholder="Ask me anything..." autocomplete="off">
+        <button id="chatbotSend"><i class="fas fa-paper-plane"></i></button>
+    </div>
+</div>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script src="../assets/js/main.js"></script>
 <?php if (isset($extraScripts)) echo $extraScripts; ?>
